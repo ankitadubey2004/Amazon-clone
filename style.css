@@ -116,3 +116,6 @@ nav{
     font-size: 18px;
     cursor: pointer;
 }
+.control_next{
+    right: 0;
+}
