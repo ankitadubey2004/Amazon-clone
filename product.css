@@ -17,13 +17,16 @@ body{
 }
 .product-icons{
     display: flex;
-    flex-direction: coloumn;
+    flex-direction: column;
     gap: 10px;
 }
 .product-icons img{
     border: 1px solid gray;
     border-radius: 10px;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
+
 }
 .product-d-details{
     margin: 0 30px;
@@ -62,7 +65,7 @@ body{
 .product-d-price{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 .product-d-product div{
     display: flex;
@@ -175,7 +178,7 @@ body{
     border-radius: 50px;
     cursor: pointer;
 }
-.product-d-purchase .prduct buy{
+.product-d-purchase .product-buy{
     background: #ffa41c;
 }
 .product-seller-info{
