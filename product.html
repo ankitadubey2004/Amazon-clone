@@ -306,6 +306,16 @@
             <h4>This product is the best for you</h4>
         </div>
     </div>
+</div>
+    <script>
+        const scrollContainer = document.querySelectorAll('.products');
+for(const item of scrollContainer){
+    item.addEventListener('wheel',(evt)=>{
+        evt.preventDefault();
+        item.scrollLeft += evt.deltaY;
+    });
+}
 
+    </script>
 </body>
 </html>
