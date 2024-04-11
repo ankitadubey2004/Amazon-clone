@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Outfit;
+    font-family: Outfit, sans-serif;
 }
 body{
     background: #fff;
@@ -62,12 +62,12 @@ body{
     font-size: 13px;
     margin: 20px 0;
 }
-.signin-condition hr{
+.signin-container hr{
     border: none;
     height: 1px;
     background: #d4d4d4;
 }
-.signin-condition h4{
+.signin-container h4{
     margin: 15px 0;
     font-size: 13px;
 }
@@ -75,10 +75,10 @@ body{
     font-size: 13px;
 }
 .signin-bottom{
-     max-width: 350px;
+     width: 350px;
      font-size: 13px;
      color: #737373;
-     margin: 20p auto;
+     margin: 20px auto;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -89,4 +89,37 @@ body{
     height: 1px;
     background: #d4d4d4;
     width: 110px;
+} 
+.signin-signup-btn{
+    width:350px;
+    height: 30px;
+    font-size: 13px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
 }
+.signin-signup-btn:hover{
+    background: #cec7c7;
+}
+footer{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-top: 20px;
+    padding: 20px 0;
+    position: fixed;
+    bottom:0;
+    background: linear-gradient(to bottom,#f4f4f4,#fff);
+    border: 2px solid #ededed;
+    font-size: 12px;
+}
+footer .footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+footer .footer-links a{
+    text-decoration: none;
+    color: #0066c0;
+ }

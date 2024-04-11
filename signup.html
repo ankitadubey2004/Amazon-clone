@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap">
+    <title>Sign Up</title>
     <link rel="stylesheet" href="signin.css">
 </head>
 <body>
     <a href="/"> <img class="logo" src="./assets/amazon_logo_dark.png" alt="" width="100px"></a>
     <div class="signin-container">
-        <h1 class="signin-title"> Sign in </h1>
-        <h5 class="input-lable"> Email or mobile phone number</h5>
+        <h1 class="signin-title"> Sign Up </h1>
+        <h5 class="input-lable"> Your name</h5>
+        <input type="text" placeholder="First and Last name">
+        <h5 class="input-lable">Mobile number or email</h5>
         <input type="text">
+        <h5 class="input-lable">Password</h5>
+        <input type="password" placeholder="At least 6 characters">
         <button>Continue</button>
         <p class="signin-condition">By continuing,you agree to Amazons <span>Condition of Use </span>and <span>Privacy Notice.</span></p>
         <p class="signin-help"> &#9656 <span>Need help</span></p>
@@ -22,11 +25,11 @@
     </div>    
     <div class="signin-bottom">
         <hr>
-        <p>New to Amazon?</p>
+        <p>Have an account?</p>
         <hr>
     </div>
-    <a href="/signup.html">
-        <button class="signin-signup-btn"> Create your Amazon Account </button>
+    <a href="/signin.html">
+        <button class="signin-signup-btn"> Login with Amazon Account </button>
     </a>
 
     <footer>
@@ -37,5 +40,6 @@
         </div>
         <p class="footer-copyright">>© 1996-2024,Amazon.com,Inc. or its affiliates</p>
     </footer>
+
 </body>
 </html>
