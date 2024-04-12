@@ -1,2 +1,2 @@
 # Amazon-clone
- Its a amzon clone website
+Amazon clone website by Ankita
